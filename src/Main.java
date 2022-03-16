@@ -3,7 +3,7 @@ public class Main {
         Komplex n1 = new Komplex(5, 7);
         Komplex n2 = new Komplex(9, 2);
 
-
+        System.out.println(n1.re + "     " + n1.im + 'i');
 
 
 
