@@ -1,12 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Komplex n1 = new Komplex();
-        Komplex n2 = new Komplex();
+        Komplex n1 = new Komplex(5, 7);
+        Komplex n2 = new Komplex(9, 2);
 
-        n1.re = 1.0;
-        n1.im = 2.0;
-        n2.re = 2.5;
-        n2.im = 20.5;
+
+
 
 
         /*
