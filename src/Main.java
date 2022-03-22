@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        Komplex n1 = new Komplex(5, 7);
-        Komplex n2 = new Komplex(9, 2);
+        Komplex a = new Komplex(3.0, 2.0);
+        Komplex b = new Komplex(4.0,1.0);
 
-        System.out.println(n1.re + "     " + n1.im + 'i');
+        System.out.println(a.re + " + " + a.im + 'i');
+        System.out.println(a);
 
 
 
-        /*
-        Komplex a = new Komplex(3.0,2.0);
+        /*Komplex a = new Komplex(3.0,2.0);
         Komplex b = new Komplex(4.0,1.0);
 
         System.out.println("talet borde vara 3 + 2i:\n" + a);
@@ -35,4 +35,6 @@ public class Main {
         }
         */
     }
+
+
 }
