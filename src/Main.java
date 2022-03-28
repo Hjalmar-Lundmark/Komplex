@@ -1,19 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Komplex a = new Komplex(3.0, 2.0);
-        Komplex b = new Komplex(4.0,1.0);
-
-        System.out.println(a.re + " + " + a.im + 'i');
-        System.out.println(a);
-
-
-
-        /*Komplex a = new Komplex(3.0,2.0);
+        Komplex a = new Komplex(3.0,2.0);
         Komplex b = new Komplex(4.0,1.0);
 
         System.out.println("talet borde vara 3 + 2i:\n" + a);
 
-        Komplex c = a.add(b);
+        /*Komplex c = a.add(b);
         Komplex d = new Komplex(7,3);
 
         System.out.println(c);
@@ -21,6 +13,7 @@ public class Main {
             System.out.println("add funkar!!");
         }
 
+        /*
         c = a.multiply(b);
         d = new Komplex(10,11);
 
