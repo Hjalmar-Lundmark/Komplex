@@ -7,6 +7,11 @@ public class Komplex {
         im = IM;
     }
 
+    @Override
+    public String toString() {
+        return re + " + "+ im + 'i';
+    }
+
     public double getRe() {
         return re;
     }
@@ -25,6 +30,14 @@ public class Komplex {
 
 
     public Komplex add(Komplex b) {
-        return b;
+        return new Komplex(re+b.re, im + b.im);
+    }
+
+    public Komplex multiply(Komplex b) {
+        return new Komplex(re*b.re, im*b.im);
+    }
+
+    public double arg() {
+        return Math.atan(im/re);
     }
 }
